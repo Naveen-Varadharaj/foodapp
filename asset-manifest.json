@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/vgtstask/static/css/main.ba3e361d.css",
-    "main.js": "/vgtstask/static/js/main.70afd098.js",
+    "main.js": "/vgtstask/static/js/main.0e2fc2e6.js",
     "static/media/foodbanner3.jpg": "/vgtstask/static/media/foodbanner3.cbed6f3ecbc6ab8732b7.jpg",
     "index.html": "/vgtstask/index.html",
     "main.ba3e361d.css.map": "/vgtstask/static/css/main.ba3e361d.css.map",
-    "main.70afd098.js.map": "/vgtstask/static/js/main.70afd098.js.map"
+    "main.0e2fc2e6.js.map": "/vgtstask/static/js/main.0e2fc2e6.js.map"
   },
   "entrypoints": [
     "static/css/main.ba3e361d.css",
-    "static/js/main.70afd098.js"
+    "static/js/main.0e2fc2e6.js"
   ]
 }
