@@ -9,7 +9,7 @@ export default function Card({change}) {
   return (
 
     <div className='py-4 px-4 bg-gray-200 rounded-lg grid justify-items-center shadow-xl my-2  ' >
-    <Link to="/src/components/Singlecard.js" >
+    <Link to="/vgtstask/Singlecard" >
     <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white ">
         <img className="w-full" src={user.strMealThumb} alt="pic" />
         <div className="px-6 py-4">
