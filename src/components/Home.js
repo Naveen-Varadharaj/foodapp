@@ -93,7 +93,7 @@ export default function Home() {
              <UserContext.Provider value={res} key={res.id} >  
               <div onClick={()=>handleChange(res)}>     
                <Routes >
-               <Route exact path="/" element={ <Card change={()=>handleAdd(res.strMeal)}/>}   />
+               <Route exact path="/vgtstask" element={ <Card change={()=>handleAdd(res.strMeal)}/>}   />
                
               </Routes> 
               
@@ -106,7 +106,7 @@ export default function Home() {
    </ul>
    
      <Routes>
-     <Route exact path="/Singlecard" element={<Singlecard props={user1}/>}/>
+     <Route exact path="/vgtstask/Singlecard" element={<Singlecard props={user1}/>}/>
      </Routes> 
      </div>
    </div>
