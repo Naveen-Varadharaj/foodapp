@@ -55,8 +55,8 @@ export default function Home() {
   return (
 
    <div onClick={handleVisible1} > 
-    <header className='text-9xl text-center font-bold   py-10 header  '>
-      <h1 className='text-black bg-slate-100 bg-opacity-70 w-fit mx-auto rounded-2xl px-3 py-2 '>FOOD APP</h1>
+    <header className='text-9xl text-center font-bold   py-10 header  max-sm:text-6xl max-[1000px]:text-7xl '>
+      <h1 className='text-black bg-slate-100 bg-opacity-70 w-fit mx-auto rounded-2xl px-3 py-2  '>FOOD APP</h1>
       </header>
      
 
@@ -82,7 +82,7 @@ export default function Home() {
         </div></button>
       </div> </div>
    <div className=' bg-gradient-to-r from-yellow-300  via-pink-600 to-orange-300 py-3'>
-   <ul className='grid grid-cols-3 justify-items-center gap-3 my-5' >
+   <ul className='grid grid-cols-3 justify-items-center gap-3 my-5 max-sm:grid-cols-1 max-[1000px]:grid-cols-2' >
     {
       list.filter((item) => {
         return (search.toLowerCase() === ""
@@ -93,8 +93,7 @@ export default function Home() {
              <UserContext.Provider value={res} key={res.id} >  
               <div onClick={()=>handleChange(res)}>     
                <Routes >
-               <Route exact path="/vgtstask" element={ <Card change={()=>handleAdd(res.strMeal)}/>}   />
-               
+               <Route exact path="/vgtstask" element={ <Card change={()=>handleAdd(res.strMeal)}/>}   />  
               </Routes> 
               
               </div>
@@ -112,4 +111,5 @@ export default function Home() {
    </div>
   )
 }
+
 
