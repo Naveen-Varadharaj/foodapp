@@ -25,7 +25,7 @@ export default function Singlecard({props}) {
   return (
     <div>
     <div className='text-5xl text-center font-bold text-orange-950 -mt-3 '>Details</div>
-      <div className=' my-3 mt-5  w-11/12 mx-auto py-4 px-10 rounded-lg max-sm:w-full  '>
+      <div className=' my-3 mt-5  w-11/12 mx-auto py-4 px-10 rounded-lg max-sm:w-full max-[1040px]:w-full  '>
        <div className='py-3 px-3  mb-3 rounded-lg grid justify-items-center'>
        <div className='w-fit py-2 px-6 rounded-lg bg-zinc-500'>
         <img className='w-96 h-96 rounded mx-auto mt-5' src={props.strMealThumb} alt='pic'/>
